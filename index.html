@@ -9,7 +9,13 @@
 
     <style>
     #profile img {
-      border-radius: 50%;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(37, 99, 235, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    #profile img:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 50px rgba(37, 99, 235, 0.3);
     }
     #profile img {
       display: block;
@@ -20,21 +26,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SK GOH</title>
+    <title>Sim Kuan GOH - AI & Brain Science Research</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Inter:400,500,600,700' rel='stylesheet' type='text/css'>
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body id="page-top" class="index">
@@ -59,16 +59,7 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    
-                    <li>
-                        <a class="page-scroll" href="#services">Projects</a>
-                    </li>
-					<!-- <li>
-                        <a class="page-scroll" href="#portfolio">Researchers</a>
-                    </li> -->
-                    <!-- <li>
-                        <a class="page-scroll" href="#clients">Collaborators</a>
-                    </li> -->
+
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -119,17 +110,9 @@
                 <div class="col-md-6">
                     <p class="p-about">Sim Kuan Goh holds a B.Eng. and Ph.D. from the National University of Singapore. He is currently an Assistant Professor at Xiamen University Malaysia. His research interests are at the crossroads of AI and brain science, exploring both AI4Brain & Brain4AI, and their applications. He is an IEEE Senior Member and has shared his work in journals and conferences (e.g., NeurIPS, ACL, EMNLP and others).</p>
 
-                    <!-- He is the point of contact of AI Research &amp; Technology (ART) Collaboratory.</p> -->
-                    <!-- <a href="https://artcollaboratory.github.io/" class="btn btn-xl" download>ART Collaboratory</a><br> -->
-                    
-
                     <h3 class="section-subheading text-muted bottom-margin-sm">Find out more:</h3>
 
-<!--                     <a target="_blank" href="https://nice-research.github.io" class="btn btn-xl">NICE Research Group</a><br><br> -->
-                    <!-- <a target="_blank" href="https://www.ilae.org/congresses/translational-epilepsy-summer-school-2024" class="btn btn-xl">Translational Epilepsy Summer School 2024</a><br><br>
-		    <a target="_blank" href="https://steer2024.xmum.my/" class="btn btn-xl">IEEE STEER 2024 Conference</a><br><br>
-                    <a target="_blank" href="https://www.ntu.edu.sg/atmri/news-events/MASTP#Content_C008_Col01" class="btn btn-xl">ACM AAMAS 2024 Workshop</a><br><br>
-                    <a target="_blank" href="https://fke.utm.my/icbmehs/" class="btn btn-xl">UTM's ICBMEHS 2024 Conference</a><br><br> -->
+
                     <a target="_blank" href="https://aimplifier.github.io/" class="btn btn-xl">AImplifier R&D</a><br><br>
                     <!-- <a target="_blank" href="https://dsaie.github.io/" class="btn btn-xl">DSAIE: Speaker Series</a><br><br> -->
 
@@ -139,14 +122,7 @@
                     
 
 
-                    <!-- <a target="_blank" href="https://www.linkedin.com/in/simkuangoh/" class="btn btn-xl">LinkedIn</a><br><br>
-                    <a target="_blank" href="https://scholar.google.com/citations?user=bWcSCDwAAAAJ&hl=en" class="btn btn-xl">Google Scholar</a><br><br>
-                    <a target="_blank" href="https://github.com/SimKuanGOH" class="btn btn-xl">Github</a><br><br> -->
-
-<!--                     <p class="p-about">We are co-organizing the 5th International Conference of Future Smart Cities (FSC) </p>
-                    <a href="https://www.ierek.com/events/future-smart-cities-fsc-5th-edition#introduction" class="btn btn-xl" download>Conference Website</a><br><br>
-                    <a href="./img/FutureSmartCitiesConference(5th).pdf" class="btn btn-xl">Call for Paper</a> -->
-                    <!-- <p class="span-about">Please join us by writing to art@vvira.com.</p> -->
+                    
                 </div>
             </div>
         </div>
@@ -154,206 +130,9 @@
 
 
 
-    <!-- About Section -->
-    <section id="services" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Research Projects</h2>
-
-
-                    <!-- <h3 class="section-subheading text-muted">Vacancies for GRA (Master's and PhD) are currently available. Interested candidates please email your CV.</h3> -->
-                </div>
-            </div>
-            <div class="row top-margin-md">
-                <div class="col-md-4">
-                    <img src="img/portfolio/AIandBrain.png" 
-                     alt="Applications" 
-                     style="width:100%; height:300px; object-fit:contain;">
-                </div>
-                <div class="col-md-8">
-                    <!-- <p class="before-header top-margin-lg">Health Analytics, Technology &amp; Intelligence</p> -->
-                    <h2 class="section-heading">AI4Brain &amp; Brain4AI</h2>
-                    <h3 class="section-subheading text-muted bottom-margin-sm">In this interdisciplinary research, we bring together insights from artificial intelligence and brain-computer interface to deepen our understanding of intelligence, cognition, and their associations with psychiatric disorders. We aspire to uncover valuable insights that could contribute to personalized treatment of neuro-diseases (e.g., epilepsy), and advance the development of more neuro-inspired artificial intelligence systems (e.g., multi-modal AI).</h3>
-                    <!-- <a href="./img/GRA_Opportunity.pdf" class="btn btn-xl" download>GRA Vacancy (PDF)</a> -->
-                </div>
-            </div>
-                
-            <br>
-            <br>
-
-            <div class="row top-margin-md">
-                <div class="col-md-4">
-                    <img src="img/portfolio/Applications.png" 
-                     alt="Applications" 
-                     style="width:100%; height:300px; object-fit:contain;">
-                </div>
-
-                <div class="col-md-8">
-                    <!-- <p class="before-header top-margin-lg">Health Analytics, Technology &amp; Intelligence</p> -->
-                    <h2 class="section-heading">Real-World Problems</h2>
-                    <h3 class="section-subheading text-muted bottom-margin-sm">My team also focuses on the integration of advanced predictive and optimization models to address complex, multidisciplinary challenges. Core areas include the application of deep reinforcement learning to formulate climate policies that optimize environmental, economic, and social trade-offs, fostering evidence-based strategies for carbon emission reduction. Furthermore, the study develops efficient time-series forecasting models for solar energy prediction, enhances seizure prediction and epileptogenic zone localization to support surgical planning, and refines diagnostic methodologies for sleep disorders, such as sleep apnea, through comprehensive physiological data analysis.</h3>
-                </div>
-            </div>
-
-            <!-- <br>
-            <br>
-
-            <div class="row top-margin-md">
-                <div class="col-md-6">
-                    <img src="img/portfolio/education.jpg" class="img-responsive" alt="">
-                </div>
-
-                <div class="col-md-6">
-                    <p class="before-header top-margin-lg">Health Analytics, Technology &amp; Intelligence</p>
-                    <h2 class="section-heading">AI in Education</h2>
-                    <h3 class="section-subheading text-muted bottom-margin-sm"></h3>
-                </div>
-
-            </div> -->
-
-            <!--<div class="row top-margin-lg hidden-sm hidden-xs">
-                <div class="col-md-6">
-                    <p class="before-header top-margin-lg">incredible websites</p>
-                    <h2 class="section-heading">Mobile Design</h2>
-                    <h3 class="section-subheading text-muted bottom-margin-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas dignissim ullamcorper. Sed ut orci rutrum, bibendum nisl a, bibendum massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas dignissim ullamcorper. Sed ut orci rutrum, bibendum nisl a, bibendum massa.</h3>
-                    <a href="#" class="btn btn-xl">Learn More</a>
-                </div>
-                <div class="col-md-6">
-                    <a href="https://dribbble.com/shots/1317713-iPad-Air-Template"><img src="img/portfolio/08.png" class="img-responsive" alt=""></a>
-                </div>
-            </div>
-			-->
-        </div>
-    </section>
-
-	    <!-- Portfolio Grid Section -->
-    <!-- <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Reseachers</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/SK.jpg" class="img-responsive" alt="" style="width:400px;height:400px;">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dr. Goh<br> Sim Kuan</h4>
-                        <p class="text-muted">Point of Contact</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/CHAN.jpg" class="img-responsive" alt="" style="width:400px;height:400px;">
-                    </a>
-                    <div class="portfolio-caption">
-                        
-						<h4>Dr. Chan<br>Chow Khuen</h4>
-                        <p class="text-muted">AI &amp; Biomedical Advisor</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/FONG.jfif" class="img-responsive" alt="" style="width:400px;height:400px;">
-                    </a>
-                    <div class="portfolio-caption">
-                        
-						<h4>Prof. Dr. Fong<br>Choong Yi</h4>
-                        <p class="text-muted">Neurology Advisor</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/LIM.jfif" class="img-responsive" alt="" style="width:400px;height:400px;">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Prof. Dr. Lim <br>Kheng Seang</h4>
-                        <p class="text-muted">Neurology Advisor</p>
-                    </div>
-                </div>
-			</div>
-			
-			
-			<div class="row">
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/YingHao.png" class="img-responsive" alt="" style="width:400px;height:400px;">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Mr. Ang<br>Ying Hao</h4>
-                        <p class="text-muted">FYP Alumnus</p>
-                    </div>
-                </div>
-                
-				
-            </div>
-        </div>
-    </section> -->
 	
 	
-    <!-- Team Section -->
-    <!-- <section id="clients" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Collaborators and Sponsors</h2>
-                    <h3 class="section-subheading text-muted">Please join us by writing to art@vvira.com.</h3>
-                </div>
-            </div>
-
-			
-             <div class="row">
-                
-                <div class="col-md-6 col-sm-6">
-                    
-                   	<img src="img/logos/UM2.png" class="img-responsive img-centered" alt="">
-                    
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    
-                        <img src="img/logos/UMMC.png" class="img-responsive img-centered" alt="">
-                   
-                </div>
-				 <div class="col-md-12 col-sm-12">
-                  
-                	<img src="img/logos/XMUM.png" class="img-responsive img-centered" alt="">
-                    
-                </div>
-                
-            </div>
-			
-			
-        </div>
-    </section>-->
+    
 
     <!-- Contact Section -->
     <section id="contact">
@@ -363,12 +142,6 @@
                     <h2 class="section-heading">Contact Me</h2>
                     <h3 class="section-subheading text-muted bottom-margin-sm">For research and industrial collaboration, etc.</h3>
                     <a target="_blank" href="mailto:art@vvira.com" class="btn btn-xl">simkuangoh@gmail.com</a><br><br>
-
-                    <!-- <h3 class="section-subheading text-muted bottom-margin-sm">Find out more:</h3>
-
-                    <a target="_blank" href="https://www.linkedin.com/in/simkuangoh/" class="btn btn-xl">LinkedIn</a><br><br>
-                    <a target="_blank" href="https://scholar.google.com/citations?user=bWcSCDwAAAAJ&hl=en" class="btn btn-xl">Google Scholar</a><br><br>
-                    <a target="_blank" href="https://github.com/SimKuanGOH" class="btn btn-xl">Github</a> -->
                     
                 </div>
             </div>
@@ -379,88 +152,17 @@
 
 
 
-    <section id="fyp">
-            <div class="container">
 
-                <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">FYP Projects</h2>
-                    <h3 class="section-subheading text-muted bottom-margin-sm">Please contact me if you are interested in the following projects.</h3>
-                    
-                    
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="section-heading">3D Human Pose and Motion Analysis Using Computer Vision For Sport and Rehabilitation</h3>
-                    </div>
-
-                    <div class="col-md-6">
-                        <p class="p-about"><br>keywords: 3D Human Pose Estimation, Motion Analysis, 3D Computer Vision, Rehab, Deep Learning, Multi-camera System, Virtual/Mixed Reality</p>
-                        <p class="p-about">Research collaboration between XMUM and Brandeis University, USA.</p>
-                    </div>
-                </div>
-
-                <br>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="section-heading">Decoding Brain Signals using Machine Learning for Clinical Diagnosis and Treatment of Epilepsy</h3>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="p-about"><br>keywords: Brain-Computer Interface, Machine/Deep Learning, Explainable AI (XAI), Epilepsy</p>
-                        <p class="p-about">Research collaboration between XMUM, Universiti Malaya (UM) and UM Medical Center.</p>
-                    </div>
-                </div>
-
-                <br>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="section-heading">Optimizing Deep Learning Training and Architecture Using Neuroevolution</h3>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="p-about"><br>keywords: Neuroevolution, Neural Architecture Search</p>
-                        <p class="p-about">Research collaboration between XMUM and Harbin Institute of Technology, China.</p>
-                    </div>
-                </div>
-
-                <br>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="section-heading">Optimal Visualization and Classification of Navigation Strategies using Machine Learning Method</h3>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="p-about">ABSTRACT: As sentient beings, we are equipped with many innate abilities that cannot be replaced by AI thus far. One of such abilities is our ability to navigate our everyday environments. Whenever we carry out daily navigational activities, we rely on a host of decisions and strategies that we may or may not be fully conscious of. In this project, the focus is on measuring the strategies that pedestrians use to get to places that they are familiar with. These strategies fall within three core components of (i) spatial updating (ii) allocentric-survey, and (iii) procedural route (Zhong, 2013; Zhong & Kozhevnikov, 2016). The current study aims are to perform a Machine Learning-guided reanalysis of Zhong's (2013) Interfaculty Spatial Navigation Project Dataset containing survey responses from 500 participants (National University of Singapore, 2012-2013) using state-of-the-art Machine Learning-based Principal Component Analysis (ML PCA). The purpose of doing so follows a three-pronged approach: (i) To address inadequacies in data visualization, classification, and factor score computation in conventional, non-ML-based PCA, (ii) To create comprehensible data visualization, strategy classification, and strategy preference indices using ML PCA, and (iii) To enable speedy and accurate sorting of new self-reported navigation strategy ratings using the ML-PCA-trained algorithm without the need to collect more data from a large sample of participants. If you have skills and interests in Machine Learning, Python programming, psychology, neuroscience, geography, you are most welcomed to apply for this project.</p>
-                        <p class="p-about">Research collaboration between XMUM and Nanyang Technological University.</p>
-                    </div>
-                </div>
-
-
-            </div>
-        </section>
  
 
     <footer>
         <div class="container">
             <div class="row">
-                <!-- <div class="col-md-4">
-                    <span class="copyright">For more information visit: <a href="http://templune.com">http://templune.com</a></span>
-                </div>
-                <div class="col-md-4">
-                </div> -->
-                <div class="col-md-12">
-                    <ul class="list-inline quicklinks">Template by 
-                        <a href="http://templune.com/plantilla-de-bootstrap-gratis.html">Templune</a>
-                        
-                    </ul>
-                </div>
+                "A beautiful heart sees beauty in everything". Master Cheng Yen
             </div>
         </div>
     </footer>
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     
 
