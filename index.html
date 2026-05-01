@@ -2,194 +2,128 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sim Kuan GOH, PhD — AI & Brain Science Research, Xiamen University Malaysia">
+    <title>Sim Kuan GOH — AI & Brain Science</title>
 
-    <style>
-    #profile img {
-      border-radius: 12px;
-      box-shadow: 0 10px 40px rgba(37, 99, 235, 0.2);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    #profile img:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 50px rgba(37, 99, 235, 0.3);
-    }
-    #profile img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    </style>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Sim Kuan GOH - AI & Brain Science Research</title>
-
-    <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Inter:400,500,600,700' rel='stylesheet' type='text/css'>
-    <!-- Theme CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
     <link href="css/agency.min.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
+    <!-- Nav -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span> Menu
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Sim Kuan GOH</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#about">About</a></li>
+                    <!-- <li><a class="page-scroll" href="#research">Research</a></li> -->
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
+    <!-- Hero -->
     <header>
         <div class="container">
             <div class="intro-text">
-
-
-
-                <div class="row">
-
-
-                    <div class="col-xs-6">    
-                        <div class="intro-lead-in">Sim Kuan GOH, PhD</div>
-                        <p class="span-about">Bridging AI & Brain Science: To Enhance Brain Health & Develop Brain-Inspired Intelligence for Real-World Challenges</p>
-                        
-
-                        <p class="span-about">"The real voyage of discovery consists not in seeking new landscapes but in having new eyes." Marcel Proust</p>
-                        <div class="intro-lead-in"></div>
-                        <a href="#about" class="page-scroll btn btn-xl">About Me</a>
+                <div class="row" style="align-items:center; display:flex; flex-wrap:wrap;">
+                    <div class="col-sm-7" style="padding-right:40px;">
+                        <!-- <p class="hero-label">Assistant Professor · IEEE Senior Member</p> -->
+                        <h1 class="hero-name">Sim Kuan GOH<span class="hero-phd">, PhD</span></h1>
+                        <p class="hero-tagline">Bridging AI &amp; Brain Science to enhance human health and build brain-inspired intelligence.</p>
+                        <p class="hero-quote">"The real voyage of discovery consists not in seeking new landscapes but in having new eyes." — Marcel Proust</p>
+                        <div style="margin-top:36px; display:flex; gap:16px; flex-wrap:wrap;">
+                            <a href="#about" class="page-scroll btn-hero">About Me</a>
+                            <!-- <a href="#research" class="page-scroll btn-hero btn-hero-outline">Research</a> -->
+                        </div>
                     </div>
-
-
-                    <div id = "profile" class="col-xs-6">
-                    <img src="img/portfolio/SK.jpg" class="img-responsive" alt="Avatar" style="width:200px">
+                    <div class="col-sm-5" id="profile" style="text-align:center; margin-top:40px;">
+                        <img src="img/portfolio/SK.jpg" class="img-responsive hero-photo" alt="Sim Kuan GOH">
                     </div>
-
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
+    <!-- About -->
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-10 col-md-offset-1">
                     <h2 class="section-heading">About Me</h2>
-                </div>
-                <div class="col-md-6">
-                    <p class="p-about">Sim Kuan Goh holds a B.Eng. and Ph.D. from the National University of Singapore. He is currently an Assistant Professor at Xiamen University Malaysia. His research interests are at the crossroads of AI and brain science, exploring both AI4Brain & Brain4AI, and their applications. He is an IEEE Senior Member and has shared his work in journals and conferences (e.g., NeurIPS, ACL, EMNLP and others).</p>
+                    <p class="p-about" style="margin-top:32px;">
+                        Sim Kuan Goh holds a B.Eng. and Ph.D. from the National University of Singapore.
+                        He is currently an Assistant Professor at <strong>Xiamen University Malaysia</strong>.
+                        His research sits at the crossroads of AI and brain science, and their real-world applications. He is an IEEE Senior Member and has published in
+                        NeurIPS, ACL, EMNLP, and other leading venues.
+                    </p>
 
-                    <h3 class="section-subheading text-muted bottom-margin-sm">Find out more:</h3>
-
-
-                    <a target="_blank" href="https://aimplifier.github.io/" class="btn btn-xl">AImplifier R&D</a><br><br>
-                    <!-- <a target="_blank" href="https://dsaie.github.io/" class="btn btn-xl">DSAIE: Speaker Series</a><br><br> -->
-
-                    <a target="_blank" href="https://www.instagram.com/xmum_ai_club/" class="btn btn-xl">XMUM AI Club</a><br><br>
-
-                    <a target="_blank" href="https://www.instagram.com/xmum_dragonliondance/" class="btn btn-xl">XMUM Dragon & Lion Dance Troupe</a><br><br>
-                    
-
-
-                    
+                    <div style="margin-top:40px;">
+                        <h3 class="section-subheading">Initiatives &amp; Communities</h3>
+                        <div class="link-chips">
+                            <a target="_blank" href="https://aimplifier.github.io/" class="chip">AImplifier R&amp;D</a>
+                            <a target="_blank" href="https://www.instagram.com/xmum_ai_club/" class="chip">XMUM AI Club</a>
+                            <a target="_blank" href="https://www.instagram.com/xmum_dragonliondance/" class="chip">XMUM Dragon &amp; Lion Dance</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- -->
 
-
-	
-	
-    
-
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted bottom-margin-sm">For research and industrial collaboration, etc.</h3>
-                    <a target="_blank" href="mailto:art@vvira.com" class="btn btn-xl">simkuangoh@gmail.com</a><br><br>
-                    
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="section-heading">Get in Touch</h2>
+                    <p class="section-subheading" style="margin-top:16px;">Open to research collaborations, industrial partnerships, and speaking opportunities.</p>
+                    <a href="mailto:simkuangoh@gmail.com" class="btn-contact">simkuangoh@gmail.com</a>
                 </div>
             </div>
-           
-        
         </div>
-    </section> 
-
-
-
-
- 
+    </section>
 
     <footer>
         <div class="container">
-            <div class="row">
-                "A beautiful heart sees beauty in everything". Master Cheng Yen
-            </div>
+            <p style="color:white; font-size:16px; margin:0;">
+                "A beautiful heart sees beauty in everything." — Master Cheng Yen
+            </p>
         </div>
     </footer>
 
-
-    
-
-    <script>
-        if (window.location.hash == "#fyp") {
-            document.getElementById("fyp").style.display = 'block';
-        } else {
-            document.getElementById("fyp").style.display = 'none';
-        }
-    </script>
-
-    <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
 
-</body>
+    <script>
+    // Scroll fade-in
+    (function () {
+        var els = document.querySelectorAll('.fade-up-target');
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+                if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+            });
+        }, { threshold: 0.1 });
+        els.forEach(function (el) { io.observe(el); });
+    })();
+    </script>
 
+</body>
 </html>
