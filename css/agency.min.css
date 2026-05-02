@@ -96,6 +96,14 @@ a:focus, a:active { outline: none; }
 
 @media (min-width: 768px) {
   .navbar-custom { background: transparent; box-shadow: none; padding: 24px 0; }
+
+  /* Over dark hero — use white text */
+  .navbar-custom:not(.affix) .navbar-brand { color: var(--white); }
+  .navbar-custom:not(.affix) .navbar-brand:hover { color: rgba(255,255,255,.7); }
+  .navbar-custom:not(.affix) .nav li a { color: rgba(255,255,255,.65); }
+  .navbar-custom:not(.affix) .nav li a:hover { color: var(--white); }
+
+  /* Scrolled — white pill with dark text */
   .navbar-custom.affix {
     background: rgba(255,255,255,.97);
     box-shadow: 0 1px 0 rgba(0,0,0,.08);
