@@ -16,6 +16,7 @@
   --gray4:      #b0b0b0;
   --light:      #f5f5f5;
   --white:      #ffffff;
+  --accent:     #C9994A;
   --ease:       cubic-bezier(.4,0,.2,1);
 }
 
@@ -83,7 +84,7 @@ a:focus, a:active { outline: none; }
 
 .navbar-custom .nav li a {
   font-family: 'Inter', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--gray3);
   letter-spacing: .02em;
@@ -130,10 +131,10 @@ header .intro-text {
 
 .hero-label {
   font-family: 'Inter', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
-  color: var(--gray3);
-  letter-spacing: .18em;
+  color: var(--accent);
+  letter-spacing: .16em;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -157,17 +158,17 @@ header .intro-text {
 
 .hero-tagline {
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
-  color: rgba(255,255,255,.65);
+  color: rgba(255,255,255,.80);
   line-height: 1.65;
   margin-bottom: 14px;
   max-width: 460px;
 }
 
 .hero-quote {
-  font-size: 13px;
-  color: rgba(255,255,255,.3);
+  font-size: 15px;
+  color: rgba(255,255,255,.50);
   font-style: italic;
   max-width: 420px;
   line-height: 1.6;
@@ -247,19 +248,19 @@ section h2.section-heading::after {
   content: '';
   display: block;
   margin-top: 18px;
-  width: 32px;
-  height: 2px;
-  background: var(--black);
-  border-radius: 1px;
+  width: 40px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
 }
 
 section h3.section-subheading {
   font-family: 'Inter', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
-  color: var(--gray3);
+  color: var(--accent);
   text-transform: uppercase;
-  letter-spacing: .14em;
+  letter-spacing: .12em;
   margin-bottom: 16px;
 }
 
@@ -282,18 +283,18 @@ section h3.section-subheading {
   display: inline-block;
   padding: 9px 20px;
   font-family: 'Inter', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--dark);
   background: transparent;
-  border: 1px solid rgba(0,0,0,.18);
+  border: 1px solid rgba(0,0,0,.22);
   border-radius: 100px;
   transition: all .2s var(--ease);
   text-decoration: none;
 }
 .chip:hover {
-  background: var(--black);
-  border-color: var(--black);
+  background: var(--titanium);
+  border-color: var(--titanium);
   color: var(--white);
   transform: translateY(-1px);
 }
@@ -337,11 +338,11 @@ section h3.section-subheading {
 #contact { background: var(--titanium); color: var(--white); }
 
 #contact .section-heading { color: var(--white) !important; }
-#contact .section-heading::after { background: var(--white); opacity: .3; }
+#contact .section-heading::after { background: var(--accent); opacity: .8; }
 
 #contact p.section-subheading {
-  font-size: 16px;
-  color: rgba(255,255,255,.45) !important;
+  font-size: 17px;
+  color: rgba(255,255,255,.65) !important;
   text-transform: none;
   letter-spacing: 0;
   margin-top: 20px;
